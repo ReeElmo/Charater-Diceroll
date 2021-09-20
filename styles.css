@@ -1,0 +1,14 @@
+.row{
+  display: flex;
+  justify-content: center;  
+}
+#proficiency{
+    border:solid red;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height:auto;
+    text-align: center;
+    
+
+}
