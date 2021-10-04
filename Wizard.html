@@ -2,12 +2,262 @@
     <html>
         <head>
             <title></title>
-            <link rel='stylesheet' href='styles.css'> 
+            <link rel='stylesheet' href='styles.css'>
         </head>
         
         <body>
-            <h1>
-              Content
-            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Wizard.html"> Wizard </a>
+                    </li>
+                    <li>
+                        <a href="Rogue.html">Rogue</a>
+                    </li>
+                    <li>
+                        <a href="Cleric.html">Cleric</a>
+                    </li>
+                    <li>
+                        <a href="Bard.html">Bard</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Name:Leon</h1>
+            <div class="pic1">
+                 <img src='Wizard.jpg'/>
+
+            </div>
+            <div class="row">
+                <div class='diceContainer'>
+                    <h2>1d4</h2>
+                    <div class='dice' id='diceOne'></div>
+                    <button onClick='rolld4()'>Roll</button>
+                </div>
+                <div class='diceContainer'>
+                    <h2>1d8</h2>
+                    <div class='dice' id='diceTwo'></div>
+                    <button onClick='rolld8()'>Roll</button>
+                </div>
+                <div class='diceContainer'>
+                    <h2>1d10</h2>
+                    <div class='dice' id='diceThree'></div>
+                    <button onClick='rolld10()'>Roll</button>
+                </div>'
+                <div class='diceContainer'>
+                    <h2>1d20</h2>
+                    <div class='dice' id='diceFour'></div>
+                    <button onClick='rolld20()'>Roll</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row1" id="proficiency">
+                    <h4>PROFICIENCY</h4>
+                    <div>___</div>
+                    <p>BONUS</p>
+                </div>
+                <div class="row1" id="walking">
+                    <h4>WALKING</h4>
+                    <h3>30 ft.</h3>
+                    <p>SPEED</p>
+                </div>
+                <div class="row1" id="initiative">
+                    <h4>Initiative</h4>
+                    <div>___</div>
+                </div>
+                <div class="row1" id="armorclass">
+                    <h4>Armor</h4>
+                    <h2>11</h2>
+                    <h4>Class</h4>
+                </div>
+                <div class="col">
+                    <div class="row1">
+                        <h4>Defenses</h4>
+                    </div>
+                    <div class="row1">
+                        <h4>Conditions</h4>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="row2" id="strength">
+                    <h4>Strength</h4> 
+                    <h1>+0</h1> 
+                    <div>___</div>
+                </div>
+                <div class="row2" id="dexterity">
+                    <h4>Dexterity</h4> 
+                    <h1>+1</h1> 
+                    <div>___</div>
+                </div>
+                <div class="row2" id="constitution">
+                    <h4>Constitution</h4> 
+                    <h1>+2</h1> 
+                    <div>___</div>
+                </div>
+                <div class="row2" id="intelligence">
+                    <h4>Intelligence</h4> 
+                    <h1>+1</h1> 
+                    <div>___</div>
+                </div>
+                <div class="row2" id="wisdom">
+                    <h4>Wisdom</h4> 
+                    <h1>+2</h1> 
+                    <div>___</div>
+                </div>
+                <div class="row2" id="charisma">
+                    <h4>Charisma</h4> 
+                    <h1>-1</h1> 
+                    <div>___</div>
+                </div>
+            </div>
+            
+            <div class="bottomRow">
+                 <div class="col1">
+                    <div class="skillAbtributes">
+                        <div class="row">
+                            <div class="col">
+                                <h3>STR[+0]</h3>
+                                <h3>DEX[+1]</h3>
+                                <h3>CON[+2]</h3>
+                            </div>
+                            <div class="col">
+                                <h3>INT[+4</h3>
+                                <h3>WIS[+5]</h3>
+                                <h3>CHA[-1]</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3>saving throws</h3>
+                        </div>
+                    </div>
+
+                    <div class="skillAbtributes">
+                        <div class="row">
+                            <h2>15</h2>
+                            <h3>Passive wis (perception)</h3>
+                        </div>
+                        <div class="row">
+                            <h2>11</h2>
+                            <h3>passive INT (investigation)</h3>
+                        </div>
+                        <div class="row">
+                            <h2>15</h2>
+                            <h3>PASSIVE WIS (INSIGHT)</h3>
+                        </div>
+                        <h3>Senses</h3>
+                    </div>
+
+                    <div class="skillAbtributes">
+                        <h3>Armor</h3>
+                        <h3>none</h3>
+                        <h3>Weapons</h3>
+                        <h3>Crossbow, Light, Dagger, Dart, Longbow, Longsword, Quarterstaff, Shortbow, Shortsword, Sling</h3>
+                        <h3>Tools</h3>
+                        <h3>None</h3>
+                        <h3>LANGUAGES</h3>
+                        <h3>Common, Elvish, Deep Speech,Minotaur,Quori</h3>
+                        <h4>Proficiency & LANGUAGES</h4>
+                    </div>
+                 </div> 
+                  
+                 <div class="col2">
+                    <div class="skillAbtributes2">
+                        <div class="row">
+                            <h3>Dex</h3>
+                            <h3>Acrobatics</h3>
+                            <h3>+1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Wis</h3>
+                            <h3>Animal Handling</h3>
+                            <h3>+2</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Int</h3>
+                            <h3>Arcana</h3>
+                            <h3>+4</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Str</h3>
+                            <h3>Athletics</h3>
+                            <h3>+0</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Cha</h3>   
+                            <h3>Deception</h3>
+                            <h3>-1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>INT</h3>
+                            <h3>History</h3>
+                            <h3>+4</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Wis</h3>
+                            <h3>Insight</h3>
+                            <h3>+5</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Cha</h3>
+                            <h3>Intimidation</h3>
+                            <h3>-1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Int</h3>
+                            <h3>Investigation</h3>
+                            <h3>+1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Wis</h3>
+                            <h3>Medicine</h3>
+                            <h3>+2</h3>
+                        </div>
+                        <div class="row">
+                            <h3>INT</h3>
+                            <h3>Nature</h3>
+                            <h3>+1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>WIS</h3>
+                            <h3>Perception</h3>
+                            <h3>+5</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Cha</h3>
+                            <h3>Performance</h3>
+                            <h3>-1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>cha</h3>
+                            <h3>Persuasion</h3>
+                            <h3>-1</h3>
+                        </div>
+                            <div class="row">
+                            <h3>INT</h3>
+                            <h3>Religion</h3>
+                            <h3>+4</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Dex</h3>
+                            <h3>Sleight of Hand</h3>
+                            <h3>+1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Dex</h3>
+                            <h3>Stealth</h3>
+                            <h3>+1</h3>
+                        </div>
+                        <div class="row">
+                            <h3>Wis</h3>
+                            <h3>Survival</h3>
+                            <h3>+2</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src='script.js'></script>
         </body>
     </html>
