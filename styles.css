@@ -49,7 +49,7 @@
     width: 400px;
     height: auto;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: left;
     margin-left: 10px;
 }
@@ -101,10 +101,7 @@ li {
 img{
     border: solid black;
 }
-.pic2{
-    width: 70px;
-    height: 50px;
-}
+
 
 
 
